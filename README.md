@@ -1,3 +1,13 @@
+# Lab 7 High-level Feedback
+ * Great job! 👍 Really nice commenting!
+ * Remember to break up your programs like TwoTowers into helper functions
+   instead of just putting everything in main. :)
+ * See my note about the runtime in thought question 2 and how to correctly
+   update the second best solution in TwoTowers.
+
+__Lab 7 Score: 22.5/24__
+__Reviewed by: Sam__
+
 # Lab 7: The Two Towers
 
 ## Useful Links

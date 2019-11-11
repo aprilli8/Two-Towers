@@ -7,6 +7,10 @@ import structure5.*;
  * This class prints the best and second best solution to the Two Towers problem,
  * in which the sum of the values in the subset are closest to half the total height.
  */
+
+ /*$  Consider breaking up your code into helper functions instead of just
+     having one giant main method.  Your comments are decent so no points off,
+     but splitting into several methods is definitely better here*/
 public class TwoTowers{
   public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
@@ -38,6 +42,10 @@ public class TwoTowers{
         best = sum;
         bestSubset = v;
       }
+      /*$ (-1) Your program doesn't always update the second best solution properly.
+          What about the case where you have a new second best solution but not a new
+          overall best solution? Sometimes, you may have to update second best on
+          its own. */
     }
 
     //prints out values for halfHeight, the best subset, and second best subset
