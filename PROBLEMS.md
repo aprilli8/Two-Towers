@@ -21,6 +21,9 @@ table rendered using GitHub's markdown formatting)
 | 40 blocks     |  1572864 mins  |     --      |
 | 50 blocks     | 1610612736 mins|     --      |
 
+_$ (-.5) The runtime should actually be O(n 2^n). There are 2^n subsets, but for each subset you do O(n) work.
+   This is probably why your estimates were a little off._
+
   * Explain how you arrived at your estimates.
     * The estimates were calculated by multiplying the amount of time it took to
     run the program for n-1 number of blocks by 2, so that since it took 1.5 minutes
